@@ -1,0 +1,317 @@
+/* .........all ..........  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .....................................................navbar ...............  */
+@media only screen and (min-width: 1200px) {
+  header {
+    background-color: #0b263a;
+  }
+  header .region-nav-branding {
+    /* margin-right: 8rem; */
+    margin: 0 20rem;
+  }
+  header #navbarSupportedContent {
+    margin-left: 20rem;
+  }
+
+  header #block-cloudsoft-main-navigation ul li {
+    margin: 1rem;
+  }
+  header #block-cloudsoft-main-navigation ul li a {
+    color: white !important;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  #block-cloudsoft-page-title {
+    display: none;
+  }
+}
+/* ........................................................banner..........  */
+main .region-content {
+  padding: 0;
+}
+
+#block-cloudsoft-content .container-fluid {
+  padding: 0;
+}
+
+.banner .field--name-field-banner-bg-image {
+  /* height: 10rem; */
+}
+.banner .banner-img img {
+  width: 100%;
+  height: 550px;
+}
+
+.banner {
+  position: relative;
+}
+.banner .banner-text {
+
+  margin: 2rem 0;
+  margin-left: 11rem;
+  color: white;
+  position: absolute;
+}
+.banner .banner-text .btn {
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    /* border: none; */
+    /* padding: 1rem; */
+  }
+/* ..........................................current update ...............................  */
+.banner-bottom {
+  /* background-color: lightgrey; */
+  background-color: #e1f6fd;
+  padding: 10px;
+  margin-bottom: 2rem !important;
+  /* border: 1px solid gray; */
+}
+.banner-bottom-inner h3 {
+    margin-left: 3rem;
+  margin-right: 4rem;
+  color: rgb(8, 147, 194);
+}
+
+/* .......................................cloud view main content.....................................  */
+
+.view-display-id-block_1 .row-1 {
+  display: flex;
+}
+
+.view-display-id-block_1 .views-col {
+  border-radius: 2px;
+  padding: 10px;
+  background-color: #48aedc;
+  margin: 1rem;
+  width: auto;
+  color: white;
+}
+.view-display-id-block_1
+  .views-col
+  .views-field-field-main-content-sub-heading {
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.view-display-id-block_1
+  .views-col
+  .views-field-field-main-content-sub-heading
+  i {
+  margin-right: 1rem;
+}
+
+.view-display-id-block_1 .views-col .views-field-field-main-content-body {
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.view-display-id-block_1 .views-col .views-field-field-main-content-readmore {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.view-display-id-block_1
+  .views-col
+  .views-field-field-main-content-readmore
+  .btn {
+  background-color: black;
+  padding: 1rem 0;
+  /* margin-bottom: 4rem; */
+}
+
+.view-display-id-block_1
+  .views-col
+  .views-field-field-main-content-readmore
+  .btn:hover {
+  background-color: #11a0e8;
+}
+
+.view-display-id-block_1
+  .views-col
+  .views-field-field-main-content-readmore
+  .btn
+  a {
+  text-decoration: none;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+/* ..................................features-list - menu................... */
+
+.features .features-list {
+  /* margin-left: 1rem; */
+}
+
+.features .features-list h3 {
+  margin-bottom: 2rem;
+}
+.features .features-list .menu .menu-item {
+  color: #48aedc;
+  margin: 1rem 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.features .features-list .menu li {
+  width: 80%;
+}
+.features .features-list .menu li a {
+  text-decoration: none;
+}
+
+.features .features-list .menu .menu-item:hover a {
+  background-color: #48aee2;
+  padding: 1rem;
+  color: white;
+  border-radius: 5px;
+}
+
+/* .features .features-list .menu li:hover {
+    color: white !important;
+  } */
+
+.features .features-list ul li ::after {
+  content: "     ->";
+  align-items: left;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+/* .........................featuers-how it works....................... ...... */
+
+.features
+  .how-it-works
+  #block-cloudsoft-featuresoverview
+  #features_overview_description
+  div {
+  /* background-color: red; */
+  color: grey;
+}
+.features
+  .how-it-works
+  #block-cloudsoft-featuresoverview
+  #features_overview_description
+  .btn {
+  border: 0;
+  padding: .5rem;
+}
+.features
+  .how-it-works
+  #block-cloudsoft-featuresoverview
+  #features_overview_description
+  .btn:hover {
+  background-color: #48aedc;
+  border: 0;
+  padding: .5rem;
+  transition: smooth;
+}
+/* .....................................................footer...........................  */
+.footer{
+    background-color: #48aedc;
+    margin-bottom: 0 !important;
+}
+
+/* .....................................About us ......................................  */
+#block-aboutus {
+    padding: 2rem;
+}
+#block-aboutus .field__item{
+    color: white;
+    /* background-color: red; */
+}
+#block-aboutus .field__item .btn{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(29, 101, 149);
+}
+#block-aboutus .field__item button:hover{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+/* ..................................Our Clients ..................................................  */
+
+.clients  .client-images{
+    padding-left: 2rem;
+
+}
+.clients  .client-images .field__label{
+    margin-top: 1rem;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.clients  .client-images .field--name-field-our-clients  img{
+    height: 150px;
+    margin: 20px 2rem;
+    border-radius: 5px;
+}
+.clients  .client-images .field--name-field-our-clients  img:hover{
+    cursor: pointer;
+}
+
+/* ...............................Social Media .......................................................  */
+
+.social-media{
+    background-color: #b6e0f3;
+}
+
+.social-media .container ul{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    margin-bottom: 0;
+}
+.social-media .container ul li{
+margin: 0 2rem;
+padding: 1rem 2rem;
+}
+.social-media .container ul li a{
+    color: white;
+    padding: 12px;
+
+}
+.social-media #facebook_id::before{
+    color: white;
+    content: "\f09a"; /* Unicode value for Font Awesome's user icon */
+      font-family: "Font Awesome 5 Free";
+      font-size: 20px;
+      color: #333;
+}
+.social-media #insta_id::before{
+    color: white;
+    content: "\f16d"; /* Unicode value for Font Awesome's user icon */
+      font-family: "Font Awesome 5 Free";
+      font-size: 20px;
+      color: #333;
+}
+.social-media #twitter_id::before{
+    color: white;
+    content: "\f099"; /* Unicode value for Font Awesome's user icon */
+      font-family: "Font Awesome 5 Free";
+      font-size: 20px;
+      color: #333;
+}
+.social-media #linkedin_id::before{
+    color: white;
+    content: "\f08c"; /* Unicode value for Font Awesome's user icon */
+      font-family: "Font Awesome 5 Free";
+      font-size: 20px;
+      color: #333;
+}
+
+/* ......................................................copyright................................  */
+.copyright{
+    display: flex;
+    background-color: #0b263a;
+    color: white;
+    padding-top: 8px;
+}

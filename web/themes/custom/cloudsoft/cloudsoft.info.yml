@@ -1,0 +1,66 @@
+name: cloudsoft Sub Theme
+type: theme
+description: This is sub theme of Bootstrap base theme
+core_version_requirement: ^8 || ^9 || ^10
+# Defines the base theme
+base theme: bootstrap5
+# Defines libraries group in which we can add CSS/JS.
+libraries:
+  - cloudsoft/global-styling
+  # - cloudsoft/fontawesome
+# libraries-override:
+#   olivero/global-styling: false
+#   olivero/classy.base: false
+#   olivero/classy.messages: false
+#   views/views.module: false
+# system/base: false
+
+# Regions, quote the names
+# regions:
+#   header: Header
+#   primary_menu: 'Primary menu'
+#   secondary_menu: 'Secondary menu'
+#   page_top: 'Page top'
+#   page_bottom: 'Page bottom'
+#   highlighted: Highlighted
+#   featured_top: 'Featured top'
+#   breadcrumb: Breadcrumb
+#   content: Content
+#   sidebar_first: 'Sidebar first'
+#   sidebar_second: 'Sidebar second'
+#   featured_bottom_first: 'Featured bottom first'
+#   featured_bottom_second: 'Featured bottom second'
+#   featured_bottom_third: 'Featured bottom third'
+#   footer_first: 'Footer first'
+#   footer_second: 'Footer second'
+#   footer_third: 'Footer third'
+#   footer_fourth: 'Footer fourth'
+#   footer_fifth: 'Footer fifth'
+#   footer_bottom: 'footer_bottom'
+#   footer_copyright: 'footer_copyright'
+# regions:
+#   header: Header
+#   primary_menu: Primary menu
+#   secondary_menu: Secondary menu
+#   hero: Hero (full width)
+#   highlighted: Highlighted
+#   breadcrumb: Breadcrumb
+#   social: Social Bar
+#   content_above: Content Above
+#   content: Content
+#   sidebar: Sidebar
+#   content_below: Content Below
+#   footer_top: Footer Top
+#   footer_bottom: Footer Bottom
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+  rest: rest
+logo: img/logo.png

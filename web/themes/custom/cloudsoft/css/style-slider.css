@@ -1,0 +1,72 @@
+#views_slideshow_cycle_div_banner_slider-block_1_0
+  .views-field-field-cloud-bg-banner-image
+  .field-content,
+#views_slideshow_cycle_div_banner_slider-block_1_0 img {
+  width: 100vw;
+  height: 40rem;
+}
+
+#views_slideshow_cycle_div_banner_slider-block_1_1
+  .views-field-field-cloud-bg-banner-image
+  .field-content,
+#views_slideshow_cycle_div_banner_slider-block_1_1 img {
+  width: 100vw;
+  height: 40rem;
+}
+
+#views_slideshow_cycle_div_banner_slider-block_1_1,
+#views_slideshow_cycle_div_banner_slider-block_1_0 {
+  position: relative;
+}
+
+#views_slideshow_cycle_div_banner_slider-block_1_0
+  .views-field-field-cloud-banner-text {
+  position: absolute;
+  left: 12rem;
+  top: 6rem;
+}
+
+#views_slideshow_cycle_div_banner_slider-block_1_1
+  .views-field-field-cloud-banner-text {
+  position: absolute;
+  left: 12rem;
+  top: 6rem;
+}
+
+#views_slideshow_cycle_div_banner_slider-block_1_0 .banner-text,
+#views_slideshow_cycle_div_banner_slider-block_1_1 .banner-text {
+  margin: 2rem 0;
+  margin-left: 11rem;
+  color: white;
+  position: absolute;
+}
+#views_slideshow_cycle_div_banner_slider-block_1_0 .banner-text .btn,
+#views_slideshow_cycle_div_banner_slider-block_1_1 .banner-text .btn {
+  margin-top: 1rem;
+  /* background-color: black; */
+  color: white;
+}
+
+.view-display-id-block_1 .views-slideshow-controls-bottom {
+  position: absolute;
+  left: 44vw;
+  bottom: 13rem;
+  color: white;
+}
+.view-display-id-block_1
+  .views-slideshow-controls-bottom
+  .item-list
+  #views_slideshow_pager_field_item_bottom_banner_slider-block_1_0 ,
+.view-display-id-block_1
+  .views-slideshow-controls-bottom
+  .item-list
+  #views_slideshow_pager_field_item_bottom_banner_slider-block_1_1  {
+    position: relative;
+  background-color: white !important;
+  z-index: 10000;
+  border: 1px solid red;
+}
+/* ........................................hidding banner............................................  */
+#block-cloudsoft-content .banner{
+    display: none;
+}
